@@ -12,7 +12,8 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: [morph,test.scss]
     css: styles.css
     toc: true
 
