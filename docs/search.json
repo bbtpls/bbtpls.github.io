@@ -5,5 +5,26 @@
     "title": "bbtpls.github.io",
     "section": "",
     "text": "This is a Quarto website by Chua Jieh Yih Audra (A0240490M) for my NM2207 module.\nTo learn more about me and access my Github folder, please click on the “about” tab."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "{r}\n#| eval=FALSE\n#| out.width=\"100%\"\nknitr::include_graphics(\"/Users/dishscitadel/Desktop/school archive/NM2207/bbtpls.github.io/images/circle id audra chua2.png\")\nI am a Year 3 CNM student with a love for games, art, and as of late, horse racing. I’d like to look more into a game I enjoy, Animal Crossing New Horizons, for my project in this module."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "{r}\n#| eval=FALSE\n#| out.width=\"100%\"\nknitr::include_graphics(\"/Users/dishscitadel/Desktop/school archive/NM2207/bbtpls.github.io/images/circle id audra chua2.png\")\nI am a Year 3 CNM student with a love for games, art, and as of late, horse racing. I’d like to look more into a game I enjoy, Animal Crossing New Horizons, for my project in this module."
+  },
+  {
+    "objectID": "about.html#my-webpage-on-github",
+    "href": "about.html#my-webpage-on-github",
+    "title": "About",
+    "section": "My Webpage on Github",
+    "text": "My Webpage on Github\nHere is the link to my NM2207 webpage on Github."
   }
 ]
