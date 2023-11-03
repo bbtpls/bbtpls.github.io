@@ -1,0 +1,30 @@
+---
+title: "Final Project"
+---
+
+## Final Write-up Placeholder
+
+Text will go here.
+
+Let's find out more about how some variables affect number of streams of a song on Spotify!
+
+## Placeholder non-interactive ggplots
+
+```{r, include=FALSE}
+library(tidyverse)
+library(palmerpenguins)
+```
+
+```{r, echo=FALSE}
+ggplot(penguins) + aes(x = bill_depth_mm, y = bill_length_mm) + geom_line()
+```
+
+```{r, echo=FALSE}
+ggplot(penguins) + aes(x = bill_depth_mm, y = flipper_length_mm) + geom_line()
+```
+
+```{r, echo=FALSE}
+ggplot(penguins) + aes(x = bill_depth_mm, y = body_mass_g) + geom_line()
+```
+
+etc plots.

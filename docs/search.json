@@ -26,5 +26,33 @@
     "title": "bbtpls.github.io",
     "section": "",
     "text": "This is a Quarto website by Chua Jieh Yih Audra (A0240490M) for my NM2207 module.\nTo learn more about me and access my Github folder, please click on the “about” tab."
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Final Project",
+    "section": "",
+    "text": "Text will go here.\nLet’s find out more about how some variables affect number of streams of a song on Spotify!"
+  },
+  {
+    "objectID": "project.html#placeholder-non-interactive-ggplots",
+    "href": "project.html#placeholder-non-interactive-ggplots",
+    "title": "Final Project",
+    "section": "Placeholder non-interactive ggplots",
+    "text": "Placeholder non-interactive ggplots\n\n\nWarning: Removed 2 rows containing missing values (`geom_line()`).\n\n\n\n\n\n\n\nWarning: Removed 2 rows containing missing values (`geom_line()`).\n\n\n\n\n\n\n\nWarning: Removed 2 rows containing missing values (`geom_line()`).\n\n\n\n\n\netc plots."
+  },
+  {
+    "objectID": "project.html#my-webpage-on-github",
+    "href": "project.html#my-webpage-on-github",
+    "title": "Final Project",
+    "section": "My Webpage on Github",
+    "text": "My Webpage on Github\nHere is the link to my NM2207 webpage on Github."
+  },
+  {
+    "objectID": "project.html#final-write-up-placeholder",
+    "href": "project.html#final-write-up-placeholder",
+    "title": "Final Project",
+    "section": "",
+    "text": "Text will go here.\nLet’s find out more about how some variables affect number of streams of a song on Spotify!"
   }
 ]
