@@ -8,23 +8,25 @@ Text will go here.
 
 Let's find out more about how some variables affect number of streams of a song on Spotify!
 
-## Placeholder non-interactive ggplots
-
 ```{r, include=FALSE}
+options(repos = c(CRAN = "https://cloud.r-project.org"))
 library(tidyverse)
-library(palmerpenguins)
+library(shiny)
+library(shinydashboard)
+library(shinyjs)
+
+#my data
+install.packages(c("devtools"))
+devtools::install_github("ldurazo/kaggler")
+library(readr)
+library(kaggler)
+kgl_auth(creds_file = 'kaggle.json')
+response <- kgl_datasets_download_all(owner_dataset = "salvatorerastelli/spotify-and-youtube")
+download.file(response[["url"]], "./data/temp.zip", mode="wb")
+unzip_result <- unzip("./data/temp.zip", exdir = "./data/", overwrite = TRUE)
+spyt <- read_csv("./data/Spotify_Youtube.csv")
 ```
 
-```{r, echo=FALSE}
-ggplot(penguins) + aes(x = bill_depth_mm, y = bill_length_mm) + geom_line()
-```
+## My App
+<iframe height="400" width="100%" frameborder="no" src="https://bbtpls.shinyapps.io/bbtplsFinalApp1/"> </iframe>
 
-```{r, echo=FALSE}
-ggplot(penguins) + aes(x = bill_depth_mm, y = flipper_length_mm) + geom_line()
-```
-
-```{r, echo=FALSE}
-ggplot(penguins) + aes(x = bill_depth_mm, y = body_mass_g) + geom_line()
-```
-
-etc plots.

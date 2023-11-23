@@ -39,7 +39,7 @@
     "href": "project.html#placeholder-non-interactive-ggplots",
     "title": "Final Project",
     "section": "Placeholder non-interactive ggplots",
-    "text": "Placeholder non-interactive ggplots\n\n\nWarning: Removed 2 rows containing missing values (`geom_line()`).\n\n\n\n\n\n\n\nWarning: Removed 2 rows containing missing values (`geom_line()`).\n\n\n\n\n\n\n\nWarning: Removed 2 rows containing missing values (`geom_line()`).\n\n\n\n\n\netc plots."
+    "text": "Placeholder non-interactive ggplots\n\n\nShiny applications not supported in static R Markdown documents\n\n\n\n\nShiny applications not supported in static R Markdown documents\n\n\nShiny applications not supported in static R Markdown documents\n\n\netc plots."
   },
   {
     "objectID": "project.html#my-webpage-on-github",
