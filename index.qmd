@@ -4,4 +4,6 @@ title: "bbtpls.github.io"
 
 This is a Quarto website by Chua Jieh Yih Audra (A0240490M) for my NM2207 module.
 
-To learn more about me and access my Github folder, please click on the "about" tab.
+To learn more about me and access my Github folders, please click on the "about" tab.
+
+To view my final project submission, please click on the "final project" tab.

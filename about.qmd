@@ -8,7 +8,7 @@ title: "About"
 knitr::include_graphics("./src/images/picofme.png")
 ```
 
-I am a Year 3 CNM student with a love for games, art, and as of late, horse racing. I'd like to look more into a game I enjoy, Animal Crossing New Horizons, for my project in this module.
+I am a Year 3 CNM student with a love for games, art, and as of late, horse racing. I'd like to look more into a platform I often use for music, Spotify, for my project in this module.
 
 ## My Webpage on Github
 

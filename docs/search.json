@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a Year 3 CNM student with a love for games, art, and as of late, horse racing. I’d like to look more into a game I enjoy, Animal Crossing New Horizons, for my project in this module."
+    "text": "I am a Year 3 CNM student with a love for games, art, and as of late, horse racing. I’d like to look more into a platform I often use for music, Spotify, for my project in this module."
   },
   {
     "objectID": "about.html#about-me",
     "href": "about.html#about-me",
     "title": "About",
     "section": "",
-    "text": "I am a Year 3 CNM student with a love for games, art, and as of late, horse racing. I’d like to look more into a game I enjoy, Animal Crossing New Horizons, for my project in this module."
+    "text": "I am a Year 3 CNM student with a love for games, art, and as of late, horse racing. I’d like to look more into a platform I often use for music, Spotify, for my project in this module."
   },
   {
     "objectID": "about.html#my-webpage-on-github",
@@ -25,14 +25,14 @@
     "href": "index.html",
     "title": "bbtpls.github.io",
     "section": "",
-    "text": "This is a Quarto website by Chua Jieh Yih Audra (A0240490M) for my NM2207 module.\nTo learn more about me and access my Github folder, please click on the “about” tab."
+    "text": "This is a Quarto website by Chua Jieh Yih Audra (A0240490M) for my NM2207 module.\nTo learn more about me and access my Github folders, please click on the “about” tab.\nTo view my final project submission, please click on the “final project” tab."
   },
   {
     "objectID": "project.html",
     "href": "project.html",
     "title": "Final Project",
     "section": "",
-    "text": "Text will go here.\nLet’s find out more about how some variables affect number of streams of a song on Spotify!"
+    "text": "Let’s find out about how some variables affect number of streams of an audio on Spotify!\n Here are the variables available to explore:\nStream: number of streams of the song on Spotify.\nDanceability: describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.\nEnergy: is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.\nSpeechiness: detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.\nInstrumentalness: predicts whether a track contains no vocals. “Ooh” and “aah” sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly “vocal”. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.\nLiveness: detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.\nValence: a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).\nTempo: the overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.\nDuration_ms: the duration of the track in milliseconds.\nLength_of_Title: length of the title of the videoclip on YouTube.\nViews: number of views on YouTube.\nLikes: number of likes on YouTube.\nComments: number of comments on YouTube.\nLinks_in_Description: number of links in the description of the video on YouTube.\nLicensed_Binary: Indicates whether the video represents licensed content, which means that the content was uploaded to a channel linked to a YouTube content partner and then claimed by that partner. Uses a binary of 1 for yes and 0 for no.\nOfficial_Video_Binary: binary of 1 for yes and 0 for no that indicates if the video found is the official video of the song.\n All data is sourced from this Kaggle dataset."
   },
   {
     "objectID": "project.html#placeholder-non-interactive-ggplots",
@@ -54,5 +54,33 @@
     "title": "Final Project",
     "section": "",
     "text": "Text will go here.\nLet’s find out more about how some variables affect number of streams of a song on Spotify!"
+  },
+  {
+    "objectID": "project.html#my-app",
+    "href": "project.html#my-app",
+    "title": "Final Project",
+    "section": "My App",
+    "text": "My App"
+  },
+  {
+    "objectID": "project.html#data-story",
+    "href": "project.html#data-story",
+    "title": "Final Project",
+    "section": "Data Story",
+    "text": "Data Story\nUsing the graph above, if we set y to ‘stream’ to plot graphs of number of spotify streams against all other variables, here are the conclusions we can draw:\nDanceability: A moderate level of danceability (0.6-0.8) improves the number of streams a song can get on Spotify, and there is an overall preference for more danceable songs.\nEnergy: A similar trend can be seen with energy, which peaks at a value of around 0.8 for maximum number of streams, showing a preference for fast, loud, and noisy music on Spotify.\nSpeechiness: Less speechy tracks tend to perform better on Spotify, and speechiness peaks in number of streams at a very small speechiness value of around 0.03. This value represents more musical and non-speech-like or rap stracks. Tracks consisting almost completely of speech such as podcasts and audiobooks perform noticeably poorly, with the maximum number of streams attained by any of them being 290.655 million streams.\nInstrumentalness: The trend shows a heavy preference towards less instrumental songs, with a lot of vocal content. The graph’s peak is at 0, after which it decreases sharply until an instrumentalness value of about 0.02. As compared to speechiness, there is still a decent popularity for songs with higher instrumentalness, and some highly instrumental songs can still obtain quite a few streams on Spotify.\nLiveness: A liveness value of about 0.1 shows the highest number of streams. Less liveness is generally performs better on Spotify.\nValence: The positivity or negativity of a song shows no clear correlation with number of streams on Spotify, other than some loss in popularity with songs on the extreme ends.\nTempo: Tracks of 100-130bpm appear to attract the most streams, while another peak can be observed at about 170bpm. This aligns with the previous trend of danceability and energy (most dance songs are of 120bpm and above), as songs with faster bpms are shown to be preferred.\nDuration_ms: Songs of about 220k milliseconds, or 3 and a half minutes, obtain more streams on Spotify.\nLength_of_Title: A roughly 50 character length of the title of the videoclip on YouTube correlates to a higher number of streams on Spotify.\nViews; Likes; Comments: Number of views, likes and comments on YouTube all appear to have no effect on the number of streams a track gets on Spotify.\nLinks_in_Description: Having up to 9-10 links in one’s YouTube description shows a positive relation to number of streams on Spotify.\nLicensed_Binary: There is a positive relationship between the video on YouTube representing licensed content and number of streams on Spotify.\nOfficial_Video_Binary: There is a positive relationship between the video on YouTube being the official video for the song and number of streams on Spotify.\n Note: all observations exclude outliers on the plot"
+  },
+  {
+    "objectID": "project.html#dynamic-graph",
+    "href": "project.html#dynamic-graph",
+    "title": "Final Project",
+    "section": "Dynamic Graph",
+    "text": "Dynamic Graph\nPick your own x and y variables to generate as many graphs as you want to explore the trends and relationships between the variables above! To see how variables affect number of streams on spotify, simply set the y variable to ‘stream’ and have fun with whichever x variable you want to explore!\n Hover over any point on the plot to look at its coordinates!"
+  },
+  {
+    "objectID": "project.html#topic",
+    "href": "project.html#topic",
+    "title": "Final Project",
+    "section": "",
+    "text": "Let’s find out about how some variables affect number of streams of an audio on Spotify!\n Here are the variables available to explore:\nStream: number of streams of the song on Spotify.\nDanceability: describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.\nEnergy: is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.\nSpeechiness: detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.\nInstrumentalness: predicts whether a track contains no vocals. “Ooh” and “aah” sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly “vocal”. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.\nLiveness: detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.\nValence: a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).\nTempo: the overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.\nDuration_ms: the duration of the track in milliseconds.\nLength_of_Title: length of the title of the videoclip on YouTube.\nViews: number of views on YouTube.\nLikes: number of likes on YouTube.\nComments: number of comments on YouTube.\nLinks_in_Description: number of links in the description of the video on YouTube.\nLicensed_Binary: Indicates whether the video represents licensed content, which means that the content was uploaded to a channel linked to a YouTube content partner and then claimed by that partner. Uses a binary of 1 for yes and 0 for no.\nOfficial_Video_Binary: binary of 1 for yes and 0 for no that indicates if the video found is the official video of the song.\n All data is sourced from this Kaggle dataset."
   }
 ]

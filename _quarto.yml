@@ -14,7 +14,7 @@ website:
 format:
   html:
     theme: 
-      light: [morph,test.scss]
+      light: [united,test.scss]
     css: styles.css
     toc: true
 

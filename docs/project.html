@@ -108,8 +108,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#final-write-up-placeholder" id="toc-final-write-up-placeholder" class="nav-link active" data-scroll-target="#final-write-up-placeholder">Final Write-up Placeholder</a></li>
-  <li><a href="#placeholder-non-interactive-ggplots" id="toc-placeholder-non-interactive-ggplots" class="nav-link" data-scroll-target="#placeholder-non-interactive-ggplots">Placeholder non-interactive ggplots</a></li>
+  <li><a href="#topic" id="toc-topic" class="nav-link active" data-scroll-target="#topic">Topic</a></li>
+  <li><a href="#dynamic-graph" id="toc-dynamic-graph" class="nav-link" data-scroll-target="#dynamic-graph">Dynamic Graph</a></li>
+  <li><a href="#data-story" id="toc-data-story" class="nav-link" data-scroll-target="#data-story">Data Story</a></li>
   </ul>
 </nav>
     </div>
@@ -133,27 +134,51 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="final-write-up-placeholder" class="level2">
-<h2 class="anchored" data-anchor-id="final-write-up-placeholder">Final Write-up Placeholder</h2>
-<p>Text will go here.</p>
-<p>Let’s find out more about how some variables affect number of streams of a song on Spotify!</p>
+<section id="topic" class="level2">
+<h2 class="anchored" data-anchor-id="topic">Topic</h2>
+<p>Let’s find out about how some variables affect number of streams of an audio on Spotify!<br>
+<br> Here are the variables available to explore:<br>
+<strong>Stream:</strong> number of streams of the song on Spotify.<br>
+<strong>Danceability:</strong> describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.<br>
+<strong>Energy:</strong> is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.<br>
+<strong>Speechiness:</strong> detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g.&nbsp;talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.<br>
+<strong>Instrumentalness:</strong> predicts whether a track contains no vocals. “Ooh” and “aah” sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly “vocal”. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.<br>
+<strong>Liveness:</strong> detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.<br>
+<strong>Valence:</strong> a measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g.&nbsp;happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g.&nbsp;sad, depressed, angry).<br>
+<strong>Tempo:</strong> the overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.<br>
+<strong>Duration_ms:</strong> the duration of the track in milliseconds.<br>
+<strong>Length_of_Title:</strong> length of the title of the videoclip on YouTube.<br>
+<strong>Views:</strong> number of views on YouTube.<br>
+<strong>Likes:</strong> number of likes on YouTube.<br>
+<strong>Comments:</strong> number of comments on YouTube.<br>
+<strong>Links_in_Description:</strong> number of links in the description of the video on YouTube.<br>
+<strong>Licensed_Binary:</strong> Indicates whether the video represents licensed content, which means that the content was uploaded to a channel linked to a YouTube content partner and then claimed by that partner. Uses a binary of 1 for yes and 0 for no.<br>
+<strong>Official_Video_Binary:</strong> binary of 1 for yes and 0 for no that indicates if the video found is the official video of the song.<br>
+<br> <em>All data is sourced from <a href="https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube/data">this</a> Kaggle dataset.</em></p>
 </section>
-<section id="placeholder-non-interactive-ggplots" class="level2">
-<h2 class="anchored" data-anchor-id="placeholder-non-interactive-ggplots">Placeholder non-interactive ggplots</h2>
-<div class="cell">
-<div class="cell-output-display">
-<p></p><div style="width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" class="muted well">Shiny applications not supported in static R Markdown documents</div><p></p>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
-<p></p><div style="width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" class="muted well">Shiny applications not supported in static R Markdown documents</div><p></p>
-</div>
-<div class="cell-output-display">
-<p></p><div style="width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" class="muted well">Shiny applications not supported in static R Markdown documents</div><p></p>
-</div>
-</div>
-<p>etc plots.</p>
+<section id="dynamic-graph" class="level2">
+<h2 class="anchored" data-anchor-id="dynamic-graph">Dynamic Graph</h2>
+<p>Pick your own x and y variables to generate as many graphs as you want to explore the trends and relationships between the variables above! To see how variables affect number of streams on spotify, simply set the y variable to ‘stream’ and have fun with whichever x variable you want to explore!<br>
+<br> Hover over any point on the plot to look at its coordinates!<br>
+<br> <iframe height="750" width="100%" frameborder="no" src="https://bbtpls.shinyapps.io/bbtplsFinalApp1/"> </iframe></p>
+</section>
+<section id="data-story" class="level2">
+<h2 class="anchored" data-anchor-id="data-story">Data Story</h2>
+<p>Using the graph above, if we set y to ‘stream’ to plot graphs of number of spotify streams against all other variables, here are the conclusions we can draw:<br>
+<strong>Danceability:</strong> A moderate level of danceability (0.6-0.8) improves the number of streams a song can get on Spotify, and there is an overall preference for more danceable songs.<br>
+<strong>Energy:</strong> A similar trend can be seen with energy, which peaks at a value of around 0.8 for maximum number of streams, showing a preference for fast, loud, and noisy music on Spotify.<br>
+<strong>Speechiness:</strong> Less speechy tracks tend to perform better on Spotify, and speechiness peaks in number of streams at a very small speechiness value of around 0.03. This value represents more musical and non-speech-like or rap stracks. Tracks consisting almost completely of speech such as podcasts and audiobooks perform noticeably poorly, with the maximum number of streams attained by any of them being 290.655 million streams.<br>
+<strong>Instrumentalness:</strong> The trend shows a heavy preference towards less instrumental songs, with a lot of vocal content. The graph’s peak is at 0, after which it decreases sharply until an instrumentalness value of about 0.02. As compared to speechiness, there is still a decent popularity for songs with higher instrumentalness, and some highly instrumental songs can still obtain quite a few streams on Spotify.<br>
+<strong>Liveness:</strong> A liveness value of about 0.1 shows the highest number of streams. Less liveness is generally performs better on Spotify.<br>
+<strong>Valence:</strong> The positivity or negativity of a song shows no clear correlation with number of streams on Spotify, other than some loss in popularity with songs on the extreme ends.<br>
+<strong>Tempo:</strong> Tracks of 100-130bpm appear to attract the most streams, while another peak can be observed at about 170bpm. This aligns with the previous trend of danceability and energy (most dance songs are of 120bpm and above), as songs with faster bpms are shown to be preferred.<br>
+<strong>Duration_ms:</strong> Songs of about 220k milliseconds, or 3 and a half minutes, obtain more streams on Spotify.<br>
+<strong>Length_of_Title:</strong> A roughly 50 character length of the title of the videoclip on YouTube correlates to a higher number of streams on Spotify.<br>
+<strong>Views; Likes; Comments:</strong> Number of views, likes and comments on YouTube all appear to have no effect on the number of streams a track gets on Spotify.<br>
+<strong>Links_in_Description:</strong> Having up to 9-10 links in one’s YouTube description shows a positive relation to number of streams on Spotify.<br>
+<strong>Licensed_Binary:</strong> There is a positive relationship between the video on YouTube representing licensed content and number of streams on Spotify.<br>
+<strong>Official_Video_Binary:</strong> There is a positive relationship between the video on YouTube being the official video for the song and number of streams on Spotify.<br>
+<br> <em>Note: all observations exclude outliers on the plot</em></p>
 
 
 </section>
